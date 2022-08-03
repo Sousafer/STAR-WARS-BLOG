@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Context } from "../store/appContext";
 import "../../styles/home.css";
-import Characters from "../component/characters";
+import Characters from "../component/people";
 import Planets from "../component/planets";
 import Ships from "../component/ships";
 
@@ -37,7 +37,7 @@ export const Home = () => {
 			</Row>
 			<Row>
 				<Col>
-					<h2 className="title">Vehicles</h2>
+					<h2 className="title">Ships</h2>
 				</Col>
 			</Row>
 			<Row>

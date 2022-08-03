@@ -17,7 +17,7 @@ export const Planet = () => {
 			<Nav className="aux1">
 				<div className="d-flex justify-content-between">
 					<img
-						src="https://i.pinimg.com/originals/8a/a9/2c/8aa92c5ba570f0c8d50a97e6bce0a8ea.jpg"
+						src="https://i.pinimg.com/736x/c7/e4/26/c7e42606cc03017466e6ae81a130e415.jpg"
 						width="400"
 					/>
 					<div className="description">

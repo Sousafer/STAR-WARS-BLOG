@@ -16,7 +16,7 @@ const Planets = props => {
 			<Card>
 				<Card.Img
 					variant="top"
-					src="https://i.pinimg.com/originals/8a/a9/2c/8aa92c5ba570f0c8d50a97e6bce0a8ea.jpg"
+					src="https://i.pinimg.com/736x/c7/e4/26/c7e42606cc03017466e6ae81a130e415.jpg"
 				/>
 				<Card.Body>
 					<Card.Title>{props.planet.name}</Card.Title>
@@ -24,6 +24,9 @@ const Planets = props => {
 						<Card.Text>
 							<p>Population: {planetStore[0].population}</p>
 							<p>Terrain: {planetStore[0].terrain}</p>
+							<p>rotation_period: {planetStore[0].rotation_period}</p>
+							<p>climate: {planetStore[0].climate}</p>
+							<p>diameter: {planetStore[0].diameter}</p>
 						</Card.Text>
 					) : (
 						""

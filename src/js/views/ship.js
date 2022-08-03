@@ -16,7 +16,7 @@ export const Ship = () => {
 		<Container>
 			<Nav className="aux1">
 				<div className="d-flex justify-content-between">
-					<img src="https://www.denofgeek.com/wp-content/uploads/2019/12/x-wing.jpg?w=1024" width="400" />
+					<img src="https://i.pinimg.com/originals/80/25/7e/80257e085f3bc1ccad89065c8ed10341.jpg" width="400" />
 					<div className="desciption">
 						{shipStore[0] ? <h1 className="display-4">{shipStore[0].name}</h1> : ""}
 						<p>
@@ -34,9 +34,9 @@ export const Ship = () => {
 							<Col sm={2}>Model: {shipStore[0].model}</Col>
 							<Col sm={2}>Class: {shipStore[0].starship_class}</Col>
 							<Col sm={2}>Passengers: {shipStore[0].passengers}</Col>
-							<Col sm={2}>Length {shipStore[0].length}</Col>
+							<Col sm={2}>Pilots: {shipStore[0].pilots}</Col>
+							<Col sm={2}>Cargo Capacity: {shipStore[0].cargo_capacity}</Col>
 							<Col sm={2}>Crew: {shipStore[0].crew}</Col>
-							<Col sm={2}>Max atmosphere speed: {shipStore[0].max_atmosphering_speed}</Col>
 						</Row>
 					</Container>
 				) : (

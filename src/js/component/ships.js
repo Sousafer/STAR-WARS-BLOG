@@ -14,7 +14,7 @@ const Ships = props => {
 	return (
 		<Col>
 			<Card>
-				<Card.Img variant="top" src="https://www.denofgeek.com/wp-content/uploads/2019/12/x-wing.jpg?w=1024" />
+				<Card.Img variant="top" src="https://i.pinimg.com/originals/80/25/7e/80257e085f3bc1ccad89065c8ed10341.jpg" />
 				<Card.Body>
 					<Card.Title>{props.ship.name}</Card.Title>
 					{shipStore[0] ? (

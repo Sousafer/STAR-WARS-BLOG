@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Context } from "../store/appContext";
 
-const Characters = props => {
+const People = props => {
 	const { store, actions } = useContext(Context);
 
 	const charStore = store.character.filter(char => char.name == props.character.name);
@@ -16,7 +16,7 @@ const Characters = props => {
 			<Card>
 				<Card.Img
 					variant="top"
-					src="https://media.timeout.com/images/103670273/320/210/image.jpg"
+					src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/6f0fc814488169.5628504fe67d8.jpg"
 					width="200"
 				/>
 				<Card.Body>
@@ -26,6 +26,8 @@ const Characters = props => {
 							<p>Gender: {charStore[0].gender}</p>
 							<p>Hair Color: {charStore[0].hair_color}</p>
 							<p>Eye Color: {charStore[0].eye_color}</p>
+							<p>Birth year: {charStore[0].birth_year}</p>
+							<p>Homeworld: {charStore[0].homeworld}</p>
 						</Card.Text>
 					) : (
 						""
@@ -45,10 +47,10 @@ const Characters = props => {
 	);
 };
 
-Characters.propTypes = {
+People.propTypes = {
 	index: PropTypes.number,
 	character: PropTypes.object,
 	id: PropTypes.number
 };
 
-export default Characters;
+export default People;

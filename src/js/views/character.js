@@ -18,14 +18,11 @@ export const Character = () => {
 		<Container>
 			<Nav className="aux1">
 				<div className="d-flex justify-content-between">
-					<img src="https://media.timeout.com/images/103670273/320/210/image.jpg" width="400" />
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/6f0fc814488169.5628504fe67d8.jpg" width="400" />
 					<div className="description">
 						{charStore[0] ? <h1 className="display-4">{charStore[0].name}</h1> : ""}
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mauris eget nulla
-							ultrices aliquam. Nunc ut ullamcorper massa. Curabitur vitae massa in risus congue dapibus a
-							eu orci. Quisque mollis sit amet nisl ac euismod. Ut vulputate leo enim, vitae accumsan
-							augue sagittis sed. Nullam non erat tellus. Mauris congue a nulla quis rutrum.
+						Sed rhoncus varius sem a laoreet. Donec congue, sapien quis aliquet hendrerit, mauris lacus viverra diam, quis posuere purus risus eu ante. Ut sit amet turpis odio. Curabitur ut ex sit amet sem aliquet fermentum. Suspendisse a urna ultrices, rhoncus leo a, imperdiet metus. Maecenas in aliquet ex, eu molestie tellus. Vestibulum ac est et justo rutrum pharetra ut id justo. Sed vel vulputate risus. Pellentesque dapibus hendrerit enim. Fusce vitae aliquet sem. In volutpat cursus blandit. Curabitur nec lectus non arcu pulvinar mollis. Nulla maximus elit sed odio convallis, ut tristique risus interdum. Donec pretium justo suscipit diam viverra congue. Nullam posuere tempor nunc, vel semper odio mattis suscipit. Quisque a augue id ligula ultrices semper nec quis leo.
 						</p>
 					</div>
 				</div>
